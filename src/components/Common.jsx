@@ -47,7 +47,7 @@ function Common() {
                             <p ><IoCaretBack />videos</p>
                             <input id="input" type="url" placeholder="Insert URL Here" />
                             <p className="text-center my-4">or</p>
-                            <div className="upload col-2">
+                            <div className="upload col-4">
                                 upload
                             </div>
                         </div>
