@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+font-family: "Lato", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 45px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  width: 60px;
+}
+
+  .a:hover {
+   color: black;
+  background-color: rgb(194, 229, 243);
+} 
+.a p{
+  margin-left: 25px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+
+@media screen and (max-height: 450px ) {
+  .sidenav {padding-top: 15px;}
+  
+}
+.head{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+.sidenav{
+  background-color: rgb(245, 243, 243);
+}
+
+.openbtn{
+  font-size: 50px;
+}
+#input{
+  width: 1000px;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: black;
+  font-size: 15px;
+}
+.upload{
+  height: 170px;
+  width: 0px;
+  display:flex;
+  justify-content: center;
+  align-items:center ;
+  background-color: rgb(245, 243, 243);
+  margin-left: 100px;
 }
